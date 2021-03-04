@@ -34,7 +34,7 @@ p = np.load(f'{os.getcwd()}\\Output\\Project_dict.npy', allow_pickle='TRUE').ite
 e = np.load(f'{os.getcwd()}\\Output\\Experiment_dict.npy', allow_pickle='TRUE').item()
 
 # Import the pre-DBSCAN clustering DataFrame
-df = pd.read_excel(f'{os.getcwd()}\\Output\\PrSMs_preDBSCAN.xlsx', engine='openpyxl')
+df = pd.read_excel(f'{os.getcwd()}\\Output\\Table S1.xlsx', engine='openpyxl')
 
 # Adding "empty" 'Cluster' column to the pre-DBSCAN DataFrame
 df['Cluster'] = 'Unclustered'
