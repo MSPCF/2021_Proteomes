@@ -1,6 +1,6 @@
 # Extensions to ignore
-*.pdf
-*.png
+*.pdf*
+*.png*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
